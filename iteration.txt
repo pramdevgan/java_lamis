@@ -123,6 +123,18 @@ n = 3;
    = 120
 
 
+===================================================================
+While:
+
+Pre-checking
+
+syntax: 
+while ( exp / condition) {
+
+   ----------------
+   ---------------
+      code
+}
 
 
 
@@ -130,24 +142,58 @@ n = 3;
 
 
 
+diff b/w for and while loop
+
+For: if we know the no. iteration in advance then it is recommended to use for loop.
+
+while loop: if the no of iterations are not known in advance but we know the some condition.
+
+
+i = 5
+
+
+======================
+i <= 5  ----> 0 <= 4 T
+i <= 5  ----> 1 <= 4 T
+i <= 5  ----> 2 <= 4 T
+
+i <= 5  ----> 4 <= 4 T
+i <= 5  ----> 5 <= 4 F
+========================
+
+print---> 0 1 2 3 4 
+
+
+problem 1: count the number of digits.
+
+example: 123456
+        ---> 6
+
+	113133223
+	----> 9
+
+
+
+====================================================
+Do-While Loop:
+
+Post-Checking
+
+* it's like while loop but it will run the code at least one time. means it will execute at least one time whether condition is False or True.
 
 
 
 
 
+Recursion: 
 
-
-
-
-
-
-
-
-
-
-
-
-
+5! = 5 * 4! 24 * 5 = 120
+	 |
+	 4 * 3! 6 * 4 = 24
+	      | 
+	      3 * 2! 2 * 3 = 6 
+		   |
+		   2 * 1! ---> 1 * 2 = 2
 
 
 
